@@ -106,12 +106,3 @@ window.Comportamiento = {
         V: 1,
     },
 };
-window.Points = {
-    'dcv@escupiteraoficial.es': {
-        L: 2,
-        M: 2,
-        X: 2,
-        J: 1,
-        V: 1,
-    },
-}
