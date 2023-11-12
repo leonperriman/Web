@@ -23,7 +23,7 @@ function validarCredencialesFacil(correo, password) {
         }  
     }
 
-    if (correo === 'leonperriman@escupiteraoficial.es' && password === 'a') {
+    if (correo === 'leonperriman@escupiteraoficial.es' && password === 'adminsecret') {
         return true;
     } else if (correo === 'abv@escupiteraoficial.es' && password === 'SinEspecificar') {
         return true;
