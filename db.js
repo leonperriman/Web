@@ -14,18 +14,104 @@
 //         { email: 'dcv@escupiteraoficial.es', password: 'SinEspecificar'},
 
 window.Comportamiento = {
+    'abv@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 2,
+        V: 2,
+    },
     'agv@escupiteraoficial.es': {
-        L: null,
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 2,
+        V: 2,
+    },
+    'as@escupiteraoficial.es': {
+        L: 2,
+        M: 1,
+        X: 1,
+        J: 1,
+        V: 1,
+    },
+    'gkv@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 2,
+        V: 2,
+    },
+    'al@escupiteraoficial.es': {
+        L: 2,
+        M: 1,
+        X: 1,
+        J: 1,
+        V: 1,
+    },
+    'jt@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 2,
+        V: 2,
+    },
+    'mp@escupiteraoficial.es': {
+        L: 1,
+        M: 1,
+        X: 1,
+        J: 1,
+        V: 1,
+    },
+    'jf@escupiteraoficial.es': {
+        L: 1,
+        M: 2,
+        X: 1,
+        J: 1,
+        V: 2,
+    },
+    'rp@escupiteraoficial.es': {
+        L: 1,
         M: 1,
         X: 2,
-        J: 3,
-        V: 4,
+        J: 2,
+        V: 2,
     },
-    'abv@escupiteraoficial.es': {
-        L: null,
-        M: 3,
+    'yb@escupiteraoficial.es': {
+        L: 2,
+        M: 1,
+        X: 1,
+        J: 1,
+        V: 1,
+    },
+    'ja@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 2,
+        V: 2,
+    },
+    'ls@escupiteraoficial.es': {
+        L: 1,
+        M: 1,
+        X: 1,
+        J: 2,
+        V: 2,
+    },
+    'dcv@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
         X: 2,
         J: 1,
-        V: 0,
-    }
+        V: 1,
+    },
 };
+window.Points = {
+    'dcv@escupiteraoficial.es': {
+        L: 2,
+        M: 2,
+        X: 2,
+        J: 1,
+        V: 1,
+    },
+}
