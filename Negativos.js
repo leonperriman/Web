@@ -1,6 +1,6 @@
 const usuario = localStorage.getItem('usuario');
 //console.log(usuario)
-const notas = window.Comportamiento[usuario];
+const notas = window.negative[usuario];
 document.getElementById('nombre3').innerHTML = usuario
 
 // console.log(localStorage.getItem('usuario'));
