@@ -13,6 +13,38 @@
 //         { email: 'ls@escupiteraoficial.es', password: 'SinEspecificar'},
 //         { email: 'dcv@escupiteraoficial.es', password: 'SinEspecificar'},
 
+window.UsuariosEscupi = {
+    'agv@escupiteraoficial.es': {
+        password: 'SinEspecificar',
+        comportamiento: {
+            semana_1: {
+                L: 2,
+                M: 2,
+                X: 2,
+                J: 2,
+                V: 2,
+            },
+        },
+        negativos: {
+            t1: 0,
+            t1: 0,
+            t2: 0,
+            t3: 0,
+            t4: 0, 
+        },
+        puntosExtra: {
+            1: 1,
+            2: 2,
+            3: 1,
+            4: 0,
+            5: 1,
+            6: 1,
+        }
+
+    }
+}
+
+
 window.Comportamiento = {
     'abv@escupiteraoficial.es': {
         L: 2,
@@ -220,7 +252,7 @@ window.ExtraPoint = {
         6: 0,
     },
 }
-window.negative = {
+window.Negative = {
     'abv@escupiteraoficial.es': {
         t1: 0,
         t2: 0,
