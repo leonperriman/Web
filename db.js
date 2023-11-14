@@ -14,327 +14,368 @@
 //         { email: 'dcv@escupiteraoficial.es', password: 'SinEspecificar'},
 
 window.UsuariosEscupi = {
-    'agv@escupiteraoficial.es': {
-        password: 'SinEspecificar',
-        comportamiento: {
-            semana_1: {
-                L: 2,
-                M: 2,
-                X: 2,
-                J: 2,
-                V: 2,
-            },
-        },
-        negativos: {
-            t1: 0,
-            t1: 0,
-            t2: 0,
-            t3: 0,
-            t4: 0, 
-        },
-        puntosExtra: {
-            1: 1,
-            2: 2,
-            3: 1,
-            4: 0,
-            5: 1,
-            6: 1,
-        }
-
-    }
-}
-
-
-window.Comportamiento = {
-    'abv@escupiteraoficial.es': {
+  "abv@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'agv@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 1,
+      2: 2,
+      3: 1,
+      4: 0,
+      5: 1,
+      6: 1,
+    },
+  },
+  "agv@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'as@escupiteraoficial.es': {
+    negativos: {
+      t1: 2,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 1,
+      3: 0,
+      4: 0,
+      5: 1,
+      6: 0,
+    },
+  },
+  "as@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 1,
         X: 1,
         J: 1,
         V: 1,
+      },
     },
-    'gkv@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "gkv@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'al@escupiteraoficial.es': {
+    negativos: {
+      t1: 2,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 1,
+      6: 0,
+    },
+  },
+  "al@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 1,
         X: 1,
         J: 1,
         V: 1,
+      },
     },
-    'jt@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0.5,
+      6: 0,
+    },
+  },
+  "jt@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'mp@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 1,
+      4: 0,
+      5: 1,
+      6: 0,
+    },
+  },
+  "mp@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 1,
         M: 1,
         X: 1,
         J: 1,
         V: 1,
+      },
     },
-    'jf@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "jf@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 1,
         M: 2,
         X: 1,
         J: 1,
         V: 2,
+      },
     },
-    'rp@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 1,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "rp@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 1,
         M: 1,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'yb@escupiteraoficial.es': {
+    negativos: {
+      t1: 1,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "yb@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 1,
         X: 1,
         J: 1,
         V: 1,
+      },
     },
-    'ja@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "sp@escupiteraoficial.es": {
+    password: "aaa",
+    comportamiento: {
+      semana_1: {
+        L: "?",
+        M: "?",
+        X: "?",
+        J: "?",
+        V: "?",
+      },
+    },
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 1,
+      6: 0,
+    },
+  },
+  "ja@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 2,
         V: 2,
+      },
     },
-    'ls@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 1,
+      t4: 1,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 1,
+      6: 0,
+    },
+  },
+  "ls@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 1,
         M: 1,
         X: 1,
         J: 2,
         V: 2,
+      },
     },
-    'dcv@escupiteraoficial.es': {
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+    },
+  },
+  "dgv@escupiteraoficial.es": {
+    password: "SinEspecificar",
+    comportamiento: {
+      semana_1: {
         L: 2,
         M: 2,
         X: 2,
         J: 1,
         V: 1,
+      },
     },
+    negativos: {
+      t1: 0,
+      t2: 0,
+      t3: 0,
+      t4: 0,
+    },
+    puntosExtra: {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0.5,
+      6: 0,
+    },
+  },
 };
-window.ExtraPoint = {
-    'abv@escupiteraoficial.es': {
-        1: 1,
-        2: 2,
-        3: 1,
-        4: 0,
-        5: 1,
-        6: 1,
-    },
-    'agv@escupiteraoficial.es': {
-        1: 0,
-        2: 1,
-        3: 0,
-        4: 0,
-        5: 1,
-        6: 0,
-    },
-    'as@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'gkv@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 1,
-        6: 0,
-    },
-    'al@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0.5,
-        6: 0,
-    },
-    'jt@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 1,
-        4: 0,
-        5: 1,
-        6: 0,
-    },
-    'mp@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'jf@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 1,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'rp@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'yb@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'sp@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 1,
-        6: 0,
-    },
-    'ja@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 1,
-        6: 0,
-    },
-    'ls@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0,
-        6: 0,
-    },
-    'dcv@escupiteraoficial.es': {
-        1: 0,
-        2: 0,
-        3: 0,
-        4: 0,
-        5: 0.5,
-        6: 0,
-    },
-}
-window.Negative = {
-    'abv@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'agv@escupiteraoficial.es': {
-        t1: 2,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'as@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'gkv@escupiteraoficial.es': {
-        t1: 2,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'al@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'jt@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'mp@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'jf@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'rp@escupiteraoficial.es': {
-        t1: 1,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'yb@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'sp@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'ja@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 1,
-        t4: 1,
-    },
-    'ls@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-    'dcv@escupiteraoficial.es': {
-        t1: 0,
-        t2: 0,
-        t3: 0,
-        t4: 0,
-    },
-}
