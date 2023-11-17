@@ -8,6 +8,15 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
+    <style>
+      body {
+        background-image: url("https://i.pinimg.com/originals/77/42/0d/77420df3f9e33db5b79ee25455d3340e.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+      }
+    </style>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
         <div class="navbar-brand">Escupitera Salada</div>
@@ -36,6 +45,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="extra-points.html">Puntos extra</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="videojuego.html">Juega</a>
             </li>
           </ul>
           <ul class="navbar-nav">
@@ -71,6 +84,31 @@
     <p class="position-absolute" style="right: 50px; bottom: 50px">
       Version (1.2)
     </p>
+
+    <!-- Modal Error login-->
+    <div
+      class="modal fade"
+      id="modal-error"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Error</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="mensaje-error">Prueba</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="db.js"></script>
     <script src="login.js"></script>
   </body>
